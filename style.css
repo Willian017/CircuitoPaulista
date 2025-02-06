@@ -5,7 +5,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-#header-index {
+.header-index {
   color: black;
   box-shadow: 2px 1px 15px 0.5px;
   display: flex;
@@ -14,26 +14,78 @@
   text-align: center;
   padding: 1rem;
 }
-#header-index a img {
+.header-index a img {
   width: 180px;
   height: 100px;
 }
-#header-index nav ul {
+.header-index nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   width: 40vw;
 }
-#header-index nav ul li a {
+.header-index nav ul li a {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
   transition: 0.3s;
 }
-#header-index nav ul li a:hover {
+.header-index nav ul li a:hover {
   -webkit-text-decoration: underline black 3px;
           text-decoration: underline black 3px;
+  color: #ff0000;
+}
+
+.footer-index {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  height: 60vh;
+}
+.footer-index p a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.footer-index p a:hover {
+  -webkit-text-decoration: underline white 3px;
+          text-decoration: underline white 3px;
+  color: #ff0000;
+}
+.footer-index div {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+.footer-index div a img {
+  width: 180px;
+  height: 100px;
+}
+.footer-index div nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 40vw;
+}
+.footer-index div nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.footer-index div nav ul li a:hover {
+  -webkit-text-decoration: underline white 3px;
+          text-decoration: underline white 3px;
   color: #ff0000;
 }/*# sourceMappingURL=style.css.map */
