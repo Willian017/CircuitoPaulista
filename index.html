@@ -23,6 +23,25 @@
     </header>
 
     <main>
+        <article class="first-article">
+            <div class="carousel" id="carousel-index">
+                <div class="carousel-images">
+                    <img src="src/assets/images/EtapaInubia2025.jpeg" class="carousel-image" alt="Etapa I">
+                    <img src="" class="carousel-image" alt="Etapa II">
+                    <img src="" class="carousel-image" alt="Etapa III">
+                    <img src="" class="carousel-image" alt="Etapa IV">
+                </div>
+                <button class="carousel-button prev" onclick="prevSlide('carousel-index')">&#10094;</button>
+                <button class="carousel-button next" onclick="nextSlide('carousel-index')">&#10095;</button>
+                <div class="carousel-indicators">
+                    <span class="indicator" onclick="showSlide(0, 'carousel-index')"></span>
+                    <span class="indicator" onclick="showSlide(1, 'carousel-index')"></span>
+                    <span class="indicator" onclick="showSlide(2, 'carousel-index')"></span>
+                    <span class="indicator" onclick="showSlide(3, 'carousel-index')"></span>
+                </div>
+            </div>
+        </article>
+
         <article class="second-article">
             <div>
                 <img src="src/assets/images/TabuleiroLogo.png" alt="">
@@ -107,5 +126,7 @@
         </div>
         <p>Desenvolvido por: <a href="#">Willian</a></p>
     </footer>
+
+    <script src="src/pages/index/scripts.js"></script>
 </body>
 </html>
