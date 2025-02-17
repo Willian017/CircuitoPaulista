@@ -1,16 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
 .second-article {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: black;
+  text-align: center;
   color: white;
   padding: 2vh 0;
 }
@@ -24,52 +18,16 @@
 .second-article div img {
   width: 70px;
   height: 70px;
-  border-radius: 10px;
+  margin-bottom: 5px;
 }
-
-.third-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10vh 0;
+.second-article div div {
+  margin: 0;
 }
-.third-article h1 {
-  font-size: 24px;
+.second-article div div h1 {
+  font-size: 30px;
 }
-.third-article hr {
-  background-color: black;
-  width: 80vw;
-  height: 3px;
-  border-radius: 100%;
-  margin: 10px 0 40px;
-}
-.third-article div {
-  display: flex;
-  flex-direction: column;
-}
-.third-article div .news {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
-  text-decoration: none;
-  color: black;
-}
-.third-article div .news h2 {
-  font-size: 12px;
-  margin-right: 5px;
-  text-align: right;
-}
-.third-article div .news img {
-  width: 150px;
-  height: 120px;
-  margin: 0 auto;
-  border-radius: 10px;
-  border: 1px solid black;
-}
-.third-article div .news h3 {
-  font-size: 20px;
-  text-align: center;
+.second-article div div h2 {
+  font-size: 18px;
 }
 
 .fourth-article {
@@ -85,11 +43,10 @@
   margin-bottom: 5vh;
 }
 .fourth-article img {
-  width: 80vw;
-  height: 180px;
+  width: 90vw;
+  height: 160px;
   margin: 5vh auto;
   border-radius: 10px;
-  border: 1px solid black;
 }
 .fourth-article h2 {
   font-size: 16px;
