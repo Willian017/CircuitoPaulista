@@ -1,0 +1,15 @@
+.button
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: 1s;
+}
+    
+.button:hover
+{
+    scale: 1.05;
+}

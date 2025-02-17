@@ -1,8 +1,26 @@
+header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vh 0;
+}
+header img {
+  width: 130px;
+  height: 80px;
+}
+header nav {
+  display: none;
+}
+
 footer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #636363;
+  background-color: #000000;
   padding-top: 3vh;
 }
 footer div {
@@ -12,20 +30,21 @@ footer div {
   width: 40vw;
 }
 footer div img {
-  width: 120px;
+  width: 130px;
   height: 80px;
 }
 footer div div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5px;
+  margin: 10px 0 5vh;
 }
 footer div div img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
   margin: 0 5px;
+  border: 2px solid white;
 }
 footer div ul {
   list-style: none;
@@ -34,12 +53,14 @@ footer div ul {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 2vh 0 0;
+}
+footer div ul li {
+  margin-bottom: 12px;
 }
 footer div ul li a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
 }
 footer p {
   color: white;
@@ -50,4 +71,4 @@ footer p a {
   text-decoration: none;
   color: white;
   text-decoration: underline;
-}/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=headerfooter.css.map */

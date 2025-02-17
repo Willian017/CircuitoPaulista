@@ -71,17 +71,6 @@
   font-size: 20px;
   text-align: center;
 }
-.third-article .button {
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  padding: 15px 25px;
-  border-radius: 10px;
-  transition: 1s;
-}
-.third-article .button:hover {
-  scale: 1.05;
-}
 
 .fourth-article {
   display: flex;
@@ -105,17 +94,6 @@
 .fourth-article h2 {
   font-size: 16px;
   text-align: center;
-}
-.fourth-article a {
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  padding: 15px 25px;
-  border-radius: 10px;
-  transition: 1s;
-}
-.fourth-article a:hover {
-  scale: 1.05;
 }
 
 @media (min-width: 550px) {

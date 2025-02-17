@@ -93,21 +93,6 @@ $borda: 1px solid red;
             }
         }
     }
-
-    .button
-    {
-        background-color: black;
-        color: white;
-        text-decoration: none;
-        padding: 15px 25px;
-        border-radius: 10px;
-        transition: 1s;
-    }
-        
-    .button:hover
-    {
-        scale: 1.05;
-    }
 }
 
 .fourth-article
@@ -139,21 +124,6 @@ $borda: 1px solid red;
         font-size: 16px;
         text-align: center;
     } 
-    
-    a
-    {
-        background-color: black;
-        color: white;
-        text-decoration: none;
-        padding: 15px 25px;
-        border-radius: 10px;
-        transition: 1s;
-    }
-        
-    a:hover
-    {
-        scale: 1.05;
-    }
 }
 
 @media (min-width: 550px)
