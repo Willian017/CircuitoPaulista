@@ -134,4 +134,21 @@
     justify-content: space-between;
     width: 90vw;
   }
+}
+@media (min-width: 650px) {
+  .first-article .carousel-image {
+    width: 80%;
+    height: 80vh;
+  }
+  .second-article div {
+    width: 30vw;
+  }
+  .third-article hr {
+    margin: 10px 0 20px;
+  }
+  .third-article div {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+  }
 }/*# sourceMappingURL=style.css.map */
