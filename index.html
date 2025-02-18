@@ -11,12 +11,13 @@
     <title>Circuito Paulista de Damas</title>
 </head>
 <body>
-    <header class="header-principal">
+    <header>
         <img src="src/assets/images/LogoCircuitoBranco.png" alt="Logo-Circuito-Paulista">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="src/pages/calendario/calendario.html">Calendario</a></li>
+                <li><a href="src/pages/regulamento/regulamento.html">Regulamento</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
@@ -27,16 +28,14 @@
             <h1>Etapas</h1>
             <div class="carousel" id="carousel-index">
                 <div class="carousel-images">
-                    <img src="src/assets/images/EtapaInubia2025.jpeg" class="carousel-image" alt="Etapa I">
+                    <a href=""><img src="src/assets/images/EtapaInubia2025.jpeg" class="carousel-image" alt="Etapa I"></a>
                     <img src="" class="carousel-image" alt="Etapa II">
                     <img src="" class="carousel-image" alt="Etapa III">
-                    <img src="" class="carousel-image" alt="Etapa IV">
                 </div>
                 <button class="carousel-button prev" onclick="prevSlide('carousel-index')">&#10094;</button>
                 <button class="carousel-button next" onclick="nextSlide('carousel-index')">&#10095;</button>
                 <div class="carousel-indicators">
                     <span class="indicator" onclick="showSlide(0, 'carousel-index')"></span>
-                    <span class="indicator" onclick="showSlide(1, 'carousel-index')"></span>
                     <span class="indicator" onclick="showSlide(2, 'carousel-index')"></span>
                     <span class="indicator" onclick="showSlide(3, 'carousel-index')"></span>
                 </div>
@@ -106,12 +105,14 @@
     </main>
 
     <footer class="footer-principal">
-        <div>
-            <img src="src/assets/images/LogoCircuitoBranco.png" alt="Logo-Circuito-Paulista">
+        <div class="div-principal-footer">
             <div>
-                <img src="src/assets/images/InstaLogo.jpg" alt="Logo Intagram">
-                <img src="src/assets/images/WhatsLogo.png" alt="Logo Whatsapp">
-                <img src="" alt="Logo Email">
+                <img src="src/assets/images/LogoCircuitoBranco.png" alt="Logo-Circuito-Paulista">
+                <div>
+                    <img src="src/assets/images/InstaLogo.jpg" alt="Logo Intagram">
+                    <img src="src/assets/images/WhatsLogo.png" alt="Logo Whatsapp">
+                    <img src="" alt="Logo Email">
+                </div>
             </div>
             <ul>
                 <li><a href="/index.html">Home</a></li>

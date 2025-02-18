@@ -26,8 +26,19 @@ h2 {
   margin-bottom: 10px;
 }
 
+h3 {
+  font-size: 16px;
+  margin: 20px 0 5px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22px;
+}
+
 img {
   width: 250px;
   height: 300px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

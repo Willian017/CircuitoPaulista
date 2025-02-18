@@ -19,6 +19,22 @@ header
     nav
     {
         display: none;
+
+        ul
+        {
+            display: flex;
+
+            li
+            {
+                a
+                {
+                    color: white;
+                    text-decoration: none;
+                    margin: 0 8px;
+                    font-size: 18px;
+                }
+            }
+        }
     }
 }
 
@@ -31,33 +47,36 @@ footer
     background-color: #000000;
     padding-top: 3vh;
 
-    div
+    .div-principal-footer
     {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 40vw;
 
-        img
-        {
-            width: 130px;
-            height: 80px;
-        }
-
         div
         {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin: 10px 0 5vh;
-
             img
             {
-                width: 40px;
-                height: 40px;
-                border-radius: 100%;
-                margin: 0 5px;
-                border: 2px solid white;
+                width: 130px;
+                height: 80px;
+            }
+
+            div
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: 10px 0 5vh;
+
+                img
+                {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                    margin: 0 5px;
+                    border: 2px solid white;
+                }
             }
         }
 
@@ -95,6 +114,56 @@ footer
             text-decoration: none;
             color: white;
             text-decoration: underline;
+        }
+    }
+}
+
+@media (min-width: 750px)
+{
+    header
+    {
+        justify-content: space-around;
+        nav
+        {
+            display: block;
+        }
+    }
+
+    footer
+    {
+        padding-top: 8vh;
+        .div-principal-footer
+        {
+            flex-direction: row;
+            width: 100vw;
+            padding: 0 8vw;
+
+            div
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 28vw;
+            }
+
+            ul
+            {
+                width: 28vw;
+                justify-content: start;
+
+                li
+                {
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+
+                    a
+                    {
+                        text-decoration: none;
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
 }

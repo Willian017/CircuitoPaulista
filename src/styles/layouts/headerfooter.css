@@ -14,6 +14,15 @@ header img {
 header nav {
   display: none;
 }
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 18px;
+}
 
 footer {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -23,30 +32,30 @@ footer {
   background-color: #000000;
   padding-top: 3vh;
 }
-footer div {
+footer .div-principal-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 40vw;
 }
-footer div img {
+footer .div-principal-footer div img {
   width: 130px;
   height: 80px;
 }
-footer div div {
+footer .div-principal-footer div div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 10px 0 5vh;
 }
-footer div div img {
+footer .div-principal-footer div div img {
   width: 40px;
   height: 40px;
   border-radius: 100%;
   margin: 0 5px;
   border: 2px solid white;
 }
-footer div ul {
+footer .div-principal-footer ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -54,10 +63,10 @@ footer div ul {
   align-items: center;
   width: 100%;
 }
-footer div ul li {
+footer .div-principal-footer ul li {
   margin-bottom: 12px;
 }
-footer div ul li a {
+footer .div-principal-footer ul li a {
   text-decoration: underline;
   color: white;
   font-size: 16px;
@@ -71,4 +80,40 @@ footer p a {
   text-decoration: none;
   color: white;
   text-decoration: underline;
+}
+
+@media (min-width: 750px) {
+  header {
+    justify-content: space-around;
+  }
+  header nav {
+    display: block;
+  }
+  footer {
+    padding-top: 8vh;
+  }
+  footer .div-principal-footer {
+    flex-direction: row;
+    width: 100vw;
+    padding: 0 8vw;
+  }
+  footer .div-principal-footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 28vw;
+  }
+  footer .div-principal-footer ul {
+    width: 28vw;
+    justify-content: start;
+  }
+  footer .div-principal-footer ul li {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  footer .div-principal-footer ul li a {
+    text-decoration: none;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=headerfooter.css.map */
