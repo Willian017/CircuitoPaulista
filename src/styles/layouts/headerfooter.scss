@@ -167,3 +167,64 @@ footer
         }
     }
 }
+
+@media (min-width: 1000px)
+{
+    header
+    {
+        padding: 5vh 0 5vh 6vw;
+
+        img
+        {
+            width: 150px;
+            height: 100px;
+        }
+        nav
+        {
+            ul
+            {
+                li
+                {
+                    a
+                    {
+                        font-size: 24px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer
+    {
+        .div-principal-footer
+        {
+            div
+            {
+                img
+                {
+                    width: 150px;
+                    height: 100px;
+                }
+                div
+                {
+                    img
+                    {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+            ul
+            {
+                li
+                {
+                    a
+                    {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
