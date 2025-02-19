@@ -8,7 +8,7 @@
 }
 .first-article .carousel {
   position: relative;
-  width: 100%;
+  width: 100vw;
   max-width: 600px;
   margin: 20px auto;
   overflow: hidden;
@@ -150,5 +150,48 @@
     flex-direction: row;
     justify-content: space-between;
     width: 90vw;
+  }
+  .fourth-article img {
+    width: 70vw;
+    height: 45vh;
+  }
+}
+@media (min-width: 1000px) {
+  .second-article div img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 5px;
+  }
+  .second-article div div h1 {
+    font-size: 32px;
+  }
+  .second-article div div h2 {
+    font-size: 24px;
+  }
+  .fourth-article h1 {
+    font-size: 30px;
+  }
+  .fourth-article img {
+    width: 60vw;
+    height: 40vh;
+    margin: 5vh auto;
+    border-radius: 10px;
+  }
+  .fourth-article h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (min-width: 1300px) {
+  .second-article div img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+  }
+  .second-article div div h1 {
+    font-size: 36px;
+  }
+  .second-article div div h2 {
+    font-size: 26px;
   }
 }/*# sourceMappingURL=style.css.map */

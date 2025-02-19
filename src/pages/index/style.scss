@@ -14,7 +14,7 @@ $borda: 1px solid red;
     .carousel
     {
         position: relative;
-        width: 100%;
+        width: 100vw;
         max-width: 600px;
         margin: 20px auto;
         overflow: hidden;
@@ -282,6 +282,96 @@ $borda: 1px solid red;
             flex-direction: row;
             justify-content: space-between;
             width: 90vw;
+        }
+    }
+
+    .fourth-article
+    {
+        
+        img
+        {
+            width: 70vw;
+            height: 45vh;
+        }   
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .second-article
+    {
+        div
+        {
+            img
+            {
+                width: 90px;
+                height: 90px;
+                margin-bottom: 5px;
+            }
+
+            div
+            {
+                h1
+                {
+                    font-size: 32px;
+                }
+
+                h2
+                {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    .fourth-article
+    {
+        h1
+        {
+            font-size: 30px;
+        }
+
+        img
+        {
+            width: 60vw;
+            height: 40vh;
+            margin: 5vh auto;
+            border-radius: 10px;
+        }
+
+        h2
+        {
+            font-size: 16px;
+            text-align: center;
+        } 
+    }
+}
+
+@media (min-width: 1300px)
+{
+    .second-article
+    {
+        div
+        {
+            img
+            {
+                width: 120px;
+                height: 120px;
+                margin-bottom: 5px;
+            }
+
+            div
+            {
+                h1
+                {
+                    font-size: 36px;
+                }
+
+                h2
+                {
+                    font-size: 26px;
+                }
+            }
         }
     }
 }

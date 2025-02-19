@@ -5,6 +5,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
   padding: 2vh 0;
 }
 header img {
@@ -18,10 +19,26 @@ header nav ul {
   display: flex;
 }
 header nav ul li a {
-  color: white;
+  position: relative;
+  display: inline-block;
   text-decoration: none;
-  margin: 0 8px;
+  color: #ffffff;
+  font-weight: bold;
   font-size: 18px;
+  margin: 0 12px;
+}
+header nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 3px;
+  background-color: #ffffff;
+  transition: width 0.5s ease-in-out;
+}
+header nav ul li a:hover::after {
+  width: 100%;
 }
 
 footer {
@@ -30,6 +47,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #000000;
+  overflow-x: hidden;
   padding-top: 3vh;
 }
 footer .div-principal-footer {
@@ -67,9 +85,26 @@ footer .div-principal-footer ul li {
   margin-bottom: 12px;
 }
 footer .div-principal-footer ul li a {
-  text-decoration: underline;
-  color: white;
-  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 12px;
+}
+footer .div-principal-footer ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 3px;
+  background-color: #ffffff;
+  transition: width 0.5s ease-in-out;
+}
+footer .div-principal-footer ul li a:hover::after {
+  width: 100%;
 }
 footer p {
   color: white;
@@ -85,6 +120,7 @@ footer p a {
 @media (min-width: 750px) {
   header {
     justify-content: space-around;
+    padding: 4vh 5vw;
   }
   header nav {
     display: block;
