@@ -226,5 +226,74 @@ footer
                 }
             }
         }
+
+        p
+        {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 1400px)
+{
+    header
+    {
+        img
+        {
+            width: 230px;
+            height: 150px;
+        }
+        nav
+        {
+            ul
+            {
+                li
+                {
+                    a
+                    {
+                        font-size: 28px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer
+    {
+        .div-principal-footer
+        {
+            div
+            {
+                img
+                {
+                    width: 230px;
+                    height: 150px;
+                }
+                div
+                {
+                    img
+                    {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+            ul
+            {
+                li
+                {
+                    a
+                    {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+
+        p
+        {
+            font-size: 20px;
+        }
     }
 }

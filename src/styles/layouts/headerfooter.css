@@ -140,4 +140,31 @@ footer p a {
   footer .div-principal-footer ul li a {
     font-size: 22px;
   }
+  footer p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1400px) {
+  header img {
+    width: 230px;
+    height: 150px;
+  }
+  header nav ul li a {
+    font-size: 28px;
+    margin-right: 20px;
+  }
+  footer .div-principal-footer div img {
+    width: 230px;
+    height: 150px;
+  }
+  footer .div-principal-footer div div img {
+    width: 70px;
+    height: 70px;
+  }
+  footer .div-principal-footer ul li a {
+    font-size: 28px;
+  }
+  footer p {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=headerfooter.css.map */
