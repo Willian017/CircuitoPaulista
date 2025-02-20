@@ -72,6 +72,10 @@ footer .div-principal-footer div div img {
   border-radius: 100%;
   margin: 0 5px;
   border: 2px solid white;
+  transition: 1s;
+}
+footer .div-principal-footer div div img:hover {
+  scale: 1.05;
 }
 footer .div-principal-footer ul {
   list-style: none;
@@ -155,10 +159,10 @@ footer p a {
 }
 @media (min-width: 1000px) {
   header {
-    padding: 5vh 0 5vh 6vw;
+    padding: 3vh 0 3vh 6vw;
   }
   header img {
-    width: 150px;
+    width: 180px;
     height: 100px;
   }
   header nav ul li a {
@@ -166,7 +170,7 @@ footer p a {
     margin-right: 20px;
   }
   footer .div-principal-footer div img {
-    width: 150px;
+    width: 180px;
     height: 100px;
   }
   footer .div-principal-footer div div img {

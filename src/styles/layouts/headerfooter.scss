@@ -98,6 +98,12 @@ footer
                     border-radius: 100%;
                     margin: 0 5px;
                     border: 2px solid white;
+                    transition: 1s;
+                }
+
+                img:hover
+                {
+                    scale: 1.05;
                 }
             }
         }
@@ -217,11 +223,11 @@ footer
 {
     header
     {
-        padding: 5vh 0 5vh 6vw;
+        padding: 3vh 0 3vh 6vw;
 
         img
         {
-            width: 150px;
+            width: 180px;
             height: 100px;
         }
         nav
@@ -248,7 +254,7 @@ footer
             {
                 img
                 {
-                    width: 150px;
+                    width: 180px;
                     height: 100px;
                 }
                 div
