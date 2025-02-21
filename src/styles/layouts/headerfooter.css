@@ -54,7 +54,14 @@ footer .div-principal-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 40vw;
+}
+footer .div-principal-footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 footer .div-principal-footer div img {
   width: 130px;

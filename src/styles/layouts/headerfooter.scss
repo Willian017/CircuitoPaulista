@@ -74,10 +74,15 @@ footer
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 40vw;
 
         div
         {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             img
             {
                 width: 130px;
