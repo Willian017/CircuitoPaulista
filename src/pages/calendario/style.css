@@ -6,38 +6,32 @@ main {
   justify-content: center;
   overflow: none;
 }
-
-h1 {
+main h1 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
 }
-
-.div-mes {
+main .div-mes {
   width: 80vw;
   margin-bottom: 30px;
   text-align: center;
 }
-.div-mes div {
+main .div-mes div {
   margin-bottom: 25px;
 }
-
-h2 {
+main h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
-h3 {
+main h3 {
   font-size: 16px;
   margin: 20px 0 5px;
   font-weight: bold;
 }
-
-h4 {
+main h4 {
   font-size: 22px;
 }
-
-img {
+main img {
   width: 250px;
   height: 300px;
   margin-bottom: 10px;
