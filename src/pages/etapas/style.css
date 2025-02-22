@@ -4,20 +4,28 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
-
-h1 {
+main h1 {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 40px;
+}
+main img {
+  width: 330px;
+  height: 400px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
-h1 h2 {
-  font-size: 20px;
+main h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
 }
-h1 h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+main h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
-h1 a {
+main a {
   margin: 50px 0;
 }/*# sourceMappingURL=style.css.map */
