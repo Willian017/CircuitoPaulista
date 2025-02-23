@@ -25,11 +25,11 @@
     </header>
 
     <main>
-        <article class="first-article">
+        <!-- <article class="first-article">
             <h1>Etapas</h1>
             <div class="carousel">
                 <div class="carousel-images">
-                    <a href="src/pages/etapas/etapas.html" class="carousel-image"><img src="src/assets/images/EtapaInubia2025.jpeg" class="carousel-image" alt="Etapa I"></a>
+                    <a href="src/pages/etapas/etapas.html"><img src="src/assets/images/EtapaInubia2025.jpeg" class="carousel-image" alt="Etapa I"></a>
                     <a href="" class="carousel-image"><img src="" class="carousel-image" alt="Etapa II"></a>
                     <a href="" class="carousel-image"><img src="" class="carousel-image" alt="Etapa III"></a>
                 </div>
@@ -41,6 +41,53 @@
                     <span class="indicator" onclick="showSlide(3, 'carousel-index')"></span>
                 </div>
             </div>
+        </article> -->
+
+        <article class="first-article">
+            
+            <div class="slideshow-container">
+            
+                <a href="src/pages/etapas/etapas.html">
+                    <div class="mySlides fade">
+                        <img src="src/assets/images/EtapaInubia2025.jpeg" style="width:100%">
+                    </div>
+                </a>
+
+                <a href="Maratona2006.html">
+                    <div class="mySlides fade">
+                        <img src="src/assets/images/EtapaInubia2025.jpeg" style="width:100%">
+                    </div>
+                </a>
+            
+                
+                <a href="Maratona2016.html">
+                    <div class="mySlides fade">
+                        <img src="src/assets/images/EtapaInubia2025.jpeg" style="width:100%">
+                    </div>
+                </a>
+                
+                <a href="Maratona2023.html">
+                    <div class="mySlides fade">
+                        <img src="src/assets/images/EtapaInubia2025.jpeg" style="width:100%">
+                    </div>
+                </a>
+
+                <button class="carousel-button prev" onclick="prevSlide('carousel-index')">&#10094;</button>
+                <button class="carousel-button next" onclick="nextSlide('carousel-index')">&#10095;</button>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="select(0)"></span> 
+              <span class="dot" onclick="select(1)"></span> 
+              <span class="dot" onclick="select(2)"></span>
+              <span class="dot" onclick="select(3)"></span>  
+            </div>
+            
+            <br><br><br>
+              
+
         </article>
 
         <article class="second-article">
