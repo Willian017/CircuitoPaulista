@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: hidden;
   width: 100vw;
   padding: 5vh 5vw;
 }
@@ -179,6 +180,9 @@
   }
 }
 @media (min-width: 1000px) {
+  main {
+    overflow: hidden;
+  }
   .first-article .mySlides {
     display: none;
     width: 40vw;

@@ -7,6 +7,7 @@ $borda: 1px solid red;
     align-items: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
     width: 100vw;    
     padding: 5vh 5vw;
 
@@ -310,10 +311,15 @@ $borda: 1px solid red;
 
 @media (min-width: 1000px)
 {
+    main
+    {
+        overflow: hidden;
+    }
 
     .first-article
     {
-        .mySlides {
+
+       .mySlides {
             display: none;
             width: 40vw;
         
