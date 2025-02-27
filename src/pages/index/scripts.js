@@ -13,10 +13,20 @@ function select(num)
         dots[i].className =  ("dot");
 
     slideIndex = num;
+    if (slideIndex > slides.length) 
+        slideIndex = 1;
 
     dots[num].className = dots[num].className.replace(" active", "");
-    slides[num].style.display = "block";  
     dots[num].className += " active";
+    slides[num].style.display = "block";  
+}
+
+function nextSlide() {
+    select(slideIndex + 1);
+}
+
+function prevSlide() {
+    select(slideIndex - 1);
 }
         
 function showSlides() {
