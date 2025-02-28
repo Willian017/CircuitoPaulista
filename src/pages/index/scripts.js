@@ -17,7 +17,7 @@ function select(num)
         slideIndex = 1;
 
     dots[num].className = dots[num].className.replace(" active", "");
-    dots[num].className += " active";
+    dots[num].className += " active"; 
     slides[num].style.display = "block";  
 }
 

@@ -82,6 +82,10 @@
   }
 }
 
+.first-second-article {
+  display: none;
+}
+
 .second-article {
   display: flex;
   flex-direction: column;
@@ -183,16 +187,34 @@
   main {
     overflow: hidden;
   }
-  .first-article .mySlides {
+  .first-article {
     display: none;
-    width: 40vw;
   }
-  .first-article .mySlides img {
-    height: 90vh;
+  .first-second-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0vw;
   }
-  .first-article .slideshow-container {
-    max-width: 40vw;
-    height: 90vh;
+  .first-second-article h1 {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+  .first-second-article div {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .first-second-article div a {
+    transition: 1s;
+  }
+  .first-second-article div a img {
+    width: 30vw;
+    border-radius: 20px;
+  }
+  .first-second-article div a:hover {
+    scale: 1.02;
   }
   .second-article div img {
     width: 80px;
