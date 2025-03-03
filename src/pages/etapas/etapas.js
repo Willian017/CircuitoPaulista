@@ -7,7 +7,6 @@ function etapas(value)
         break;
 
     }  
-    
 }
 
 function etapa1()
