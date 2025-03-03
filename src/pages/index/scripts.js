@@ -28,7 +28,7 @@ function nextSlide() {
 function prevSlide() {
     let slides = document.getElementsByClassName("mySlides");
     slideIndex = slideIndex - 2;
-    if (slideIndex < 1)
+    if (slideIndex < 0)
         slideIndex = slides.length - 1;
     showSlides2();
 }
