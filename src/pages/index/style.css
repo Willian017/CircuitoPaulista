@@ -139,6 +139,7 @@
 .fourth-article h2 {
   font-size: 16px;
   text-align: center;
+  line-height: 26px;
 }
 
 @media (min-width: 550px) {
@@ -222,7 +223,7 @@
     margin-bottom: 5px;
   }
   .second-article div div h1 {
-    font-size: 30px;
+    font-size: 26px;
   }
   .second-article div div h2 {
     font-size: 22px;
