@@ -163,6 +163,9 @@ footer p a {
     text-decoration: none;
     font-size: 18px;
   }
+  footer p {
+    text-align: center;
+  }
 }
 @media (min-width: 1000px) {
   header {
