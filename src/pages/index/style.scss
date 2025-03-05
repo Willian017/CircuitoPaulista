@@ -32,8 +32,7 @@ $borda: 1px solid red;
     
     }
     .mySlides img {vertical-align: middle;
-    border-radius: 10px;
-    height: 60vh;}
+    border-radius: 10px;}
     
     .slideshow-container 
     {
@@ -41,7 +40,6 @@ $borda: 1px solid red;
         align-items: center;
         justify-content: center;
         max-width: 90vw;
-        height: 60vh;
         position: relative;
         margin: auto;
         box-shadow: 0px 0px 2px;
@@ -225,7 +223,6 @@ $borda: 1px solid red;
     img
     {
         width: 90vw;
-        height: 30vh;
         margin: 5vh auto;
         border-radius: 10px;
     }
@@ -271,15 +268,11 @@ $borda: 1px solid red;
             width: 80vw;
         
         }
-        .mySlides img 
-        {
-            height: 80vh;
-        }
+
         
         .slideshow-container 
         {
             max-width: 80vw;
-            height: 80vh;
         }
     }
 
@@ -312,7 +305,6 @@ $borda: 1px solid red;
         img
         {
             width: 70vw;
-            height: 45vh;
         }   
     }
 }
@@ -406,7 +398,6 @@ $borda: 1px solid red;
         img
         {
             width: 50vw;
-            height: 50vh;
             margin: 5vh auto;
             border-radius: 10px;
         }

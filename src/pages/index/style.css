@@ -26,14 +26,12 @@
 .first-article .mySlides img {
   vertical-align: middle;
   border-radius: 10px;
-  height: 60vh;
 }
 .first-article .slideshow-container {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 90vw;
-  height: 60vh;
   position: relative;
   margin: auto;
   box-shadow: 0px 0px 2px;
@@ -134,7 +132,6 @@
 }
 .fourth-article img {
   width: 90vw;
-  height: 30vh;
   margin: 5vh auto;
   border-radius: 10px;
 }
@@ -163,12 +160,8 @@
     display: none;
     width: 80vw;
   }
-  .first-article .mySlides img {
-    height: 80vh;
-  }
   .first-article .slideshow-container {
     max-width: 80vw;
-    height: 80vh;
   }
   .second-article div {
     width: 30vw;
@@ -183,7 +176,6 @@
   }
   .fourth-article img {
     width: 70vw;
-    height: 45vh;
   }
 }
 @media (min-width: 1000px) {
@@ -236,7 +228,6 @@
   }
   .fourth-article img {
     width: 50vw;
-    height: 50vh;
     margin: 5vh auto;
     border-radius: 10px;
   }
