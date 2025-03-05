@@ -66,7 +66,7 @@ function showSlides() {
     setTimeout(showSlides, 8000);
 }
 
-var height = document.querySelector(".second-article").clientHeight;
+var height = document.querySelector("#num").clientHeight;
 var scrollTop = window.pageYOffset;
 var boolean = true;
 
