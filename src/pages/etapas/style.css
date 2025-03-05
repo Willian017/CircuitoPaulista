@@ -34,7 +34,7 @@ main iframe {
   border-radius: 10px;
   border: 1px solid black;
   width: 90vw;
-  height: 50vh;
+  height: 30vh;
 }
 
 @media (min-width: 650px) {
@@ -51,7 +51,7 @@ main iframe {
     font-size: 30px;
   }
   main iframe {
-    width: 80vw;
-    height: 70vh;
+    width: 70vw;
+    height: 90vh;
   }
 }/*# sourceMappingURL=style.css.map */
