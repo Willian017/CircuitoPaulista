@@ -71,7 +71,7 @@ var scrollTop = window.pageYOffset;
 var boolean = true;
 
 let valueDisplays = document.querySelectorAll(".num");
-let interval = 5000;
+let interval = 3000;
 
 window.addEventListener('scroll', () => {
     var scrollTop = window.pageYOffset;
