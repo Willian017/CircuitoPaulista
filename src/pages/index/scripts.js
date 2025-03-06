@@ -86,7 +86,10 @@ window.addEventListener('scroll', () => {
                 startValue += 1;
                 valueDisplays.textContent = startValue;
                 if(startValue == endValue)
+                {
                     clearInterval(counter);
+                    valueDisplays.textContent = startValue + "+";
+                }
             }, duration);
         });
     }
