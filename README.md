@@ -1,7 +1,7 @@
 <h1 align="center">CircuitoPaulista</h1>
 
 <p align="center">Circuito Paulista de Damas Website</p>
-<h4 align="center"> 🚧 Em manutenção... 🚧 </h4>
+<h4 align="center"> 🚀 Finalizado 🚀 </h4>
 
 ### 🛠 Tecnologias
 
