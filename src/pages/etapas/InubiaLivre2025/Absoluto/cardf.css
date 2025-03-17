@@ -1,0 +1,56 @@
+﻿body {scrollbar-base-color: #eaf4ff; background : #eaf4ff; font : 11px "Tahoma", "Arial";    letter-spacing : 1px; text-align: center; color: 000000;}
+table {align:center; background : #eaf4ff; font : 11px "Tahoma", "Arial";     letter-spacing : 1px; color: 000000;}
+img.mala {border:1px solid; width:35px; height:18px; page-break-inside:avoid;}
+img.duza {border:1px solid; width:70px; height:36px; page-break-inside:avoid;}
+img.foto {border:1px solid; page-break-inside:avoid;}
+.cb {border:0px solid; margin:0px}
+td.l {text-align:left;}
+td.c {text-align:center;}
+td.r {text-align:right;}
+.fo {height:70px}
+h1 {font : 24px "Times New Roman", "Arial"; font-weight : bold;   text-align:center; color : #000000; letter-spacing : 1px;}
+h2 {font : 16px "Arial", "Arial"; font-weight : bold;  ; text-align:center; color : #000000; letter-spacing : 1px;}
+h3 {font : 16px "Times New Roman", "Arial"; font-weight : bold;   text-align:center; color : #0076ae; letter-spacing : 3px;}
+h4 {font : 14px "Arial", "Arial"; font-weight : bold;   color : #000000; letter-spacing : 1px;}
+h5 {font : 12px "Arial", "Arial"; font-weight : bold;   color : #001080; letter-spacing : 1px;}
+th {background : #0076ae; font-weight : bold; color : #f0f0f0; padding: 3px 4px 3px 4px; white-space:nowrap;}
+td { padding: 5px 4px 5px 4px; white-space:nowrap;}
+tr.b {font-weight : bold}
+tr {page-break-inside:always;}
+tr.kj {background : #d2f0ff;}
+tr.kc {background : #a8d3ff;}
+td.kj {background : #d2f0ff}
+td.kc {background : #a8d3ff}
+td.kcbred {background : #a8d3ff; font-weight : bold; color: #FF0000;}
+td.kcb {background : #a8d3ff; font-weight : bold;}
+a {text-decoration:none; color: #0000dd;}
+a.noprt {text-align:left;}
+hr {height: 1px; width: 84%; color : #0076ae;}
+.fr_no_prt {background : #eaf4ff; border-left: 1px dotted #0076ae; border-right: 1px dotted #0076ae; border-top: 1px dotted #0076ae; border-bottom: 1px dotted #0076ae;}
+@media print {
+td { padding: 1px 3px 1px 3px; white-space:nowrap;}
+h1 {font : 24px "Times New Roman", "Arial"; font-weight : bold;   text-align:center; color : #000000; letter-spacing : 1px;}
+h2 {font : 16px "Arial", "Arial"; font-weight : bold;   text-align:center; color : #000000; letter-spacing : 1px;}
+h3 {font : 16px "Times New Roman", "Arial"; font-weight : bold;   text-align:center; color : #000000; letter-spacing : 3px;}
+h4 {font : 14px "Arial", "Arial"; font-weight : bold;   color : #000000; letter-spacing : 1px;}
+h5 {font : 12px "Arial", "Arial"; font-weight : bold;   color : #000000; letter-spacing : 1px;}
+th {font-weight : bold; color : #000000; padding: 5px 4px 5px 4px; white-space:nowrap;}
+a {text-decoration:none; color: #000000;}
+a.noprt {color: #ffffff; font : 1px}
+hr {height: 1px; width: 84%; color: #000000;}
+tr.kj {background : #ffffff;vertical-align:bottom}
+tr.kc {background : #ffffff;vertical-align:bottom}
+table {align:center; background : #ffffff; font : 11px "Tahoma", "Arial";     letter-spacing : 1px; color: #000000;}
+th {background : #ffffff; font-weight : bold; color : #000000; padding: 1px 3px 1px 3px; white-space:nowrap;}
+.fr_no_prt {background : #eaf4ff; border-left: 1px none; border-right: 1px none; border-top: 1px none; border-bottom: 1px none;}
+}
+table.fr {border: 1px solid #0076ae;}
+td.kjb {background : #d2f0ff; font-weight : bold;}
+td.kcb {background : #a8d3ff; font : 13px 'Tahoma', 'Arial'; font-weight : bold;}
+td.kcbk {background : #a8d3ff; font : 13px 'Tahoma', 'Arial'; font-weight : bold;}
+td.kpc_b {background : #0076ae; color : #f0f0f0; font-weight : bold; text-align:center; border : 1px solid #0076ae;}
+@media print {
+table.fr {border: 1px solid #000000;}
+h6 {font : 11px "Arial CE", "Arial"; font-weight : bold; color : #000000; page-break-after:always;}
+td.kcbk {font : 11px 'Arial CE', 'Arial'; font-weight : bold; border-bottom: 1px dotted #000000;}
+}
