@@ -1,0 +1,48 @@
+main
+{
+    padding: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1
+    {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+
+    .pai
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+    }
+
+    .coluna
+    {
+        flex: 100%;
+        width: 0 4px;
+
+        img
+        {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+    }
+}
+
+@media (min-width: 950px)
+{
+    main
+    {
+        img
+        {
+            width: 30vw;
+        }
+    }
+}
