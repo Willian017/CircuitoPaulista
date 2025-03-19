@@ -1,47 +1,39 @@
-main
-{
+main {
     padding: 10vh 0;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 
-    h1
-    {
+    h1 {
         text-align: center;
         font-size: 40px;
         margin-bottom: 50px;
         font-weight: bold;
     }
 
-    .pai
-    {
+    .pai {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         padding: 0px 4px;
     }
 
-    .coluna
-    {
+    .coluna {
+        display: flex;
+        flex-direction: column;
         flex: 100%;
         width: 0 4px;
 
-        img
-        {
+        img {
             margin-top: 8px;
             vertical-align: middle;
         }
     }
 }
 
-@media (min-width: 950px)
-{
-    main
-    {
-        img
-        {
+@media (min-width: 950px) {
+    main {
+        img {
             width: 30vw;
         }
     }

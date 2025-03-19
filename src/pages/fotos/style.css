@@ -3,8 +3,6 @@ main {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 main h1 {
@@ -15,10 +13,12 @@ main h1 {
 }
 main .pai {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   padding: 0px 4px;
 }
 main .coluna {
+  display: flex;
+  flex-direction: column;
   flex: 100%;
   width: 0 4px;
 }
