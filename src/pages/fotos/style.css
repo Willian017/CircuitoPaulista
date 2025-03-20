@@ -7,13 +7,13 @@ main {
 }
 main h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 50px;
   font-weight: bold;
 }
 main .pai {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0px 4px;
 }
 main .coluna {
@@ -23,12 +23,19 @@ main .coluna {
   width: 0 4px;
 }
 main .coluna img {
+  width: 90vw;
   margin-top: 8px;
   vertical-align: middle;
 }
 
 @media (min-width: 950px) {
-  main img {
-    width: 30vw;
+  main h1 {
+    font-size: 40px;
+  }
+  main .pai {
+    flex-direction: row;
+  }
+  main .coluna img {
+    width: 32vw;
   }
 }/*# sourceMappingURL=style.css.map */
