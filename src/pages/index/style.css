@@ -140,9 +140,11 @@
   margin: 0 auto;
   border-radius: 10px;
   border: 1px solid black;
+}
+.third-article a {
   transition: 1s scale;
 }
-.third-article img:hover {
+.third-article a:hover {
   scale: 1.02;
 }
 .third-article div {
@@ -279,6 +281,9 @@
   }
   .second-article div div h2 {
     font-size: 22px;
+  }
+  .third-article h1 {
+    font-size: 30px;
   }
   .fourth-article h1 {
     font-size: 30px;
