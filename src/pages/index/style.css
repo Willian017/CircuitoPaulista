@@ -140,6 +140,7 @@
   margin: 0 auto;
   border-radius: 10px;
   border: 1px solid black;
+  margin-bottom: 20px;
 }
 .third-article a {
   transition: 1s scale;
@@ -207,11 +208,12 @@
     width: 90vw;
   }
   .third-article div a {
+    text-align: center;
     margin: 0 40px;
-    width: 15vw;
+    width: 20vw;
   }
   .third-article div a img {
-    width: 15vw;
+    width: 20vw;
   }
 }
 @media (min-width: 650px) {

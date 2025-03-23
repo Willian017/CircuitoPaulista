@@ -15,7 +15,7 @@ h1 {
 .Noticias img {
   width: 80vw;
   border-radius: 10px;
-  border: 1px solid black;
+  margin-bottom: 10px;
 }
 .Noticias h2 {
   font-size: 14px;
@@ -32,6 +32,7 @@ h1 {
 }
 #MaisNoticias a {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: left;
   text-decoration: none;

@@ -164,6 +164,7 @@ $borda: 1px solid red;
         margin: 0 auto;
         border-radius: 10px;
         border: 1px solid black;
+        margin-bottom: 20px;
     }
 
     a {
@@ -244,11 +245,12 @@ $borda: 1px solid red;
             width: 90vw;
 
             a {
+                text-align: center;
                 margin: 0 40px;
-                width: 15vw;
+                width: 20vw;
 
                 img {
-                    width: 15vw;
+                    width: 20vw;
                 }
             }
         }
