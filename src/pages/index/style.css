@@ -175,6 +175,7 @@
   align-items: center;
   justify-content: center;
   padding: 10vh 6vw;
+  padding-top: 0;
 }
 .fourth-article h1 {
   font-size: 24px;
