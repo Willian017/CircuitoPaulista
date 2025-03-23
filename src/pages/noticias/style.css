@@ -23,6 +23,7 @@ h1 {
   width: 80vw;
 }
 .Noticias h3 {
+  text-indent: 1.5em;
   margin-top: 20px;
   text-align: justify;
 }
