@@ -13,6 +13,18 @@ main h1 {
   margin-bottom: 50px;
   font-weight: bold;
 }
-main table {
-  text-align: center;
+main div {
+  display: flex;
+  flex-direction: column;
+  align-items: lef;
+}
+main div a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 4px;
+}
+main div :hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
